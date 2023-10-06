@@ -5,11 +5,8 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 public class Hacker {
-    static public boolean CallPresidentsSecretaryToMakeAppointment(Date dateOfAppointment) {
-        return ThreadLocalRandom.current().nextInt(0, 2) == 1;
-    }
 
-    static public String[] BuyYuanCheap() {
+    static public String[] BuyBitcoin() {
         String[] result = new String[2];
 
         if (ThreadLocalRandom.current().nextInt(0, 2) == 1) {
@@ -40,13 +37,5 @@ public class Hacker {
 
     static public boolean BuyCupOfCofee(int bankAccount, String address) {
         return ThreadLocalRandom.current().nextInt(0, 2) == 1;
-    }
-
-    static public void Method123() {
-        return;
-    }
-
-    static public void Method321() {
-        return;
     }
 }

@@ -14,7 +14,7 @@
 public class Main {
     public static void main(String[] args) {
         int bankAccount = 123417564;
-        String address = "Raccoon Hole Number Zero";
+        String address = "address";
 
         Hacker.BuyACupOfCofee(bankAccount, address);
     }
@@ -27,7 +27,7 @@ class Hacker {
         Object PersonalAccountData;
 
         do {
-            BankAccount = Subsystem.Hacker.BuyYuanCheap();
+            BankAccount = Subsystem.Hacker.BuyBitcoin();
         } while (BankAccount == null);
 
         try {
